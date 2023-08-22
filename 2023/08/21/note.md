@@ -36,3 +36,32 @@ void main(){
 }
 ----------------------------------------------------------
 
+#include <stdio.h>
+// Odd or Even Number
+int main(){
+  int a;
+  scanf("%d",&a);
+    if (a%2==0){
+    printf("Even");
+      }
+    else
+      printf("Odd");  
+  return 0;  
+}
+----------------------------------------------------------
+#include <stdio.h>
+// Ternary Operator
+int main(){
+  int a;
+  printf("Enter Your Age:\n");
+  scanf("%d",&a);
+  (a>18)?(printf("Can Vote")):(printf("Cannot Vote"));
+  return 0;  
+}
+----------------------------------------------------------
+a=5
+// Increatment or Decreament
+++a / a++
+--a / a--
+----------------------------------------------------------
+
