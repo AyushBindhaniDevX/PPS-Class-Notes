@@ -11,9 +11,10 @@ int main(){
   mul=a*b;
   div=a/b;
   // To Print all the Values
-  printf("Sum of Num: %0.2f", sum);
-  printf("\nSubtration of Num: %0.2f", sub);
-  printf("\nMultiplication of Num: %0.2f", mul);
-  printf("\nDiv of Num: %0.2f", div);   
+  printf("Sum of Num: %f", sum);
+  printf("\nSubtration of Num: %f", sub);
+  printf("\nMultiplication of Num: %f", mul);
+  printf("\nDiv of Num: %f", div);   
   return 0;
 }
+// Type Casting (float)b 
