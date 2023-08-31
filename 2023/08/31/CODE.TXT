@@ -14,12 +14,15 @@ int main(void) {
 // (Variable = expression)? expression2:expression3
 /////////////////////////////////////////////////////////////////////
 #include <stdio.h>
-
-int main(void) {
+void main() {
   int e;
   scanf("%d", &e);
   (e%2==0)?printf("Entered Number is Even"):printf("Entered Numbed is Odd");
-
-  return 0;
+}
+/////////////////////////////////////////////////////////////////////
+#include <stdio.h>
+void main() {
+int a=5;
+  printf("%d\n",a++);
 }
 /////////////////////////////////////////////////////////////////////
